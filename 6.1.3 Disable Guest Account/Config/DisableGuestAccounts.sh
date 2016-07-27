@@ -2,4 +2,4 @@
 
 # Disable Guest User account login
 
-defaults read /Library/Preferences/com.apple.loginwindow GuestEnabled -bool NO
+defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -bool NO

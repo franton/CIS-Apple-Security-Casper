@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 check=$( cupsctl | grep "_share_printers" )
 i=$((${#check}-1))

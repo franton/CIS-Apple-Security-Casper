@@ -1,11 +1,11 @@
 #!/usr/bin/python
 
-# EA to check for Fast User Switching status
+# EA to check for Automatic Logins
 
 import CoreFoundation
 
-domain = 'GlobalPreferences'
-key = 'MultipleSessionEnabled'
+domain = 'com.apple.loginwindow'
+key = 'autoLoginUser'
 
 key_value = CoreFoundation.CFPreferencesCopyAppValue(key, domain)
 

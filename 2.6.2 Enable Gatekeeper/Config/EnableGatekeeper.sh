@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cpctl --master-enable
+spctl --master-enable

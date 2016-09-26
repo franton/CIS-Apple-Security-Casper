@@ -11,7 +11,7 @@ brcorner=$( defaults read /Users/$user/Library/Preferences/com.apple.dock wvous-
 
 if [ -z "$tlcorner" ] || [ -z "$trcorner" ] || [ -z "$blcorner" ] || [ -z "$brcorner" ];
 then
-        echo "<result>Disabled></result>"
+        echo "<result>Disabled</result>"
         exit 0
 fi
 

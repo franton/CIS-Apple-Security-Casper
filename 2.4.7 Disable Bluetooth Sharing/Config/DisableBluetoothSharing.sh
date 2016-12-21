@@ -4,4 +4,3 @@ user=$( python -c 'from SystemConfiguration import SCDynamicStoreCopyConsoleUser
 uuid=$( ioreg -rd1 -c IOPlatformExpertDevice | grep UUID | awk '{ print $3 }' | sed -e s/\"//g )
 
 defaults write /Users/$user/Library/Preferences/ByHost/com.apple.Bluetooth.$uuid.plist PrefKeyServicesEnabled -int 0
-killall cfprefsd

@@ -9,7 +9,7 @@ key = 'ControllerPowerState'
 
 key_value = CoreFoundation.CFPreferencesCopyAppValue(key, domain)
 
-if key_value == 0:
-    print "<result>Disabled</result>"
+if key_value == 1:
+    print "<result>Enabled</result>"
 else:
-    print "<result>Enabled</result>" 
+    print "<result>Disabled</result>" 

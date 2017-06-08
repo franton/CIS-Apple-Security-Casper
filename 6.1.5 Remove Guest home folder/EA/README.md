@@ -1,0 +1,1 @@
+You can use the same EA as in 6.1.3 when detecting if the Guest account is active.

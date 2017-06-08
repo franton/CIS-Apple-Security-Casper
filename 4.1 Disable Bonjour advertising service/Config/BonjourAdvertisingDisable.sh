@@ -1,3 +1,3 @@
 #!/bin/bash
 
-defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool YES
+defaults write /Library/Preferences/com.apple.alf globalstate -int 1
